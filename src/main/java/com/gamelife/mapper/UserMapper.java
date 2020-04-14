@@ -18,7 +18,7 @@ public interface UserMapper {
     void update(User user);
 
     @Select("select * from user where name = #{name}")
-    public List<User> getUserByName(String name);
+    public User getUserByName(String name);
 
     @Select("select * from user where name = #{name} and password = #{password}")
     public User getByUser(@Param("name") String name, @Param("password") String password);

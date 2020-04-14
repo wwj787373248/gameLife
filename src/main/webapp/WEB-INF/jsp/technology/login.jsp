@@ -402,7 +402,7 @@
 						url:"/technology/login",
 						type:"post",
 						data:$.param({
-							"user_name": $("#user_name").val().trim(),
+							"name": $("#user_name").val().trim(),
 							"password": $("#password").val().trim(),
 						}),
 						dataType: "text",

@@ -32,20 +32,25 @@ public class TechnologyController {
     public String loginPost(@RequestParam("name") String name, @RequestParam("password") String password, Model
             model, HttpSession session) {
         name = HtmlUtils.htmlEscape(name);
-        User user = userService.getByUser(name, password);
-
+        User user = userService.getUserByName(name);
         if (null == user) {
-            JSONObject json= new JSONObject();
+            JSONObject json = new JSONObject();
             json.put("result", "error");
             return json.toJSONString();
+        } else {
+            User userAgain = userService.getByUser(name, password, user.getSalt());
+            if (null == userAgain) {
+                JSONObject json = new JSONObject();
+                json.put("result", "error");
+                return json.toJSONString();
+            }
+            session.setAttribute("user", user);
+            JSONObject json = new JSONObject();
+            json.put("result", "success");
+            json.put("tag", "/technology");
+            return json.toJSONString();
         }
-        session.setAttribute("user", user);
-        JSONObject json= new JSONObject();
-        json.put("result", "success");
-        json.put("tag", "/technology");
-        return json.toJSONString();
     }
-
 
 
     @RequestMapping(value = "/logout", method = RequestMethod.GET)
