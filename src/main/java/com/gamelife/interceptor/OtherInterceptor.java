@@ -47,9 +47,7 @@ public class OtherInterceptor extends HandlerInterceptorAdapter {
 
         HttpSession session = request.getSession();
         String contextPath = session.getServletContext().getContextPath();
-        System.out.println(contextPath);
         request.getSession().setAttribute("contextPath", contextPath);
-
 //        User user =(User)  session.getAttribute("user");
 //        if(null!=user) {
 //

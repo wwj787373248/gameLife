@@ -31,15 +31,15 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
     <!--CSS -->
-    <link rel="stylesheet" href="index/css/linearicons.css">
-    <link rel="stylesheet" href="index/css/font-awesome.min.css">
-    <link rel="stylesheet" href="index/css/bootstrap.css">
-    <link rel="stylesheet" href="index/css/magnific-popup.css">
-    <link rel="stylesheet" href="index/css/jquery-ui.css">
-    <link rel="stylesheet" href="index/css/nice-select.css">
-    <link rel="stylesheet" href="index/css/animate.min.css">
-    <link rel="stylesheet" href="index/css/owl.carousel.css">
-    <link rel="stylesheet" href="index/css/main.css">
+    <link rel="stylesheet" href="/index/css/linearicons.css">
+    <link rel="stylesheet" href="/index/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/index/css/bootstrap.css">
+    <link rel="stylesheet" href="/index/css/magnific-popup.css">
+    <link rel="stylesheet" href="/index/css/jquery-ui.css">
+    <link rel="stylesheet" href="/index/css/nice-select.css">
+    <link rel="stylesheet" href="/index/css/animate.min.css">
+    <link rel="stylesheet" href="/index/css/owl.carousel.css">
+    <link rel="stylesheet" href="/index/css/main.css">
 
 </head>
 <body>
@@ -47,7 +47,7 @@
     <div class="container main-menu">
         <div class="row align-items-center justify-content-between d-flex">
             <div id="logo">
-                <a href="#"><img src="index/img/chm.png" alt="" title="" height="40" width="52"/></a>
+                <a href="#"><img src="/index/img/chm.png" alt="" title="" height="40" width="52"/></a>
             </div>
             <nav id="nav-menu-container">
                 <ul class="nav-menu">

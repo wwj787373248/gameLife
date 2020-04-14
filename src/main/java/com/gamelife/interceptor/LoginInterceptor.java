@@ -40,7 +40,6 @@ public class LoginInterceptor extends HandlerInterceptorAdapter {
         String[] noNeedAuthPage = new String[]{
                 "/show",
                 "/",};
-
         String uri = request.getRequestURI();
         uri = StringUtils.remove(uri, contextPath);
         if (!Arrays.asList(noNeedAuthPage).contains(uri)) {

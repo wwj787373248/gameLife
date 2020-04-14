@@ -53,7 +53,7 @@
                     <div class="relative">
                         <div class="thumb">
                             <div class="overlay overlay-bg"></div>
-                            <img class="image img-fluid" src="index/img/p1.jpg"
+                            <img class="image img-fluid" src="/index/img/p1.jpg"
                                  alt="">
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                     <div class="relative">
                         <div class="thumb">
                             <div class="overlay overlay-bg"></div>
-                            <img class="image img-fluid" src="index/img/p2.jpg"
+                            <img class="image img-fluid" src="/index/img/p2.jpg"
                                  alt="">
                         </div>
                     </div>
@@ -79,7 +79,7 @@
                     <div class="relative">
                         <div class="thumb">
                             <div class="overlay overlay-bg"></div>
-                            <img class="image img-fluid" src="index/img/p3.jpg"
+                            <img class="image img-fluid" src="/index/img/p3.jpg"
                                  alt="">
                         </div>
 
@@ -93,7 +93,7 @@
                     <div class="relative">
                         <div class="thumb">
                             <div class="overlay overlay-bg"></div>
-                            <img class="image img-fluid" src="index/img/p4.jpg"
+                            <img class="image img-fluid" src="/index/img/p4.jpg"
                                  alt="">
                         </div>
                     </div>
@@ -106,7 +106,7 @@
                     <div class="relative">
                         <div class="thumb">
                             <div class="overlay overlay-bg"></div>
-                            <img class="image img-fluid" src="index/img/p5.jpg"
+                            <img class="image img-fluid" src="/index/img/p5.jpg"
                                  alt="">
                         </div>
                     </div>
@@ -119,7 +119,7 @@
                     <div class="relative">
                         <div class="thumb">
                             <div class="overlay overlay-bg"></div>
-                            <img class="image img-fluid" src="index/img/p6.jpg"
+                            <img class="image img-fluid" src="/index/img/p6.jpg"
                                  alt="">
                         </div>
                     </div>

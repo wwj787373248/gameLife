@@ -15,10 +15,17 @@
                                 expression="org.springframework.stereotype.Controller"/>
     </context:component-scan>
 
-    <mvc:annotation-driven />
+    <mvc:annotation-driven >
+        <mvc:message-converters register-defaults="true">
+            <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                <property name="supportedMediaTypes" value="text/plain;charset=UTF-8" />
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
 
     <!--开通静态资源的访问-->
     <mvc:default-servlet-handler />
+<!--    <mvc:resources mapping="/static" location="/static/"></mvc:resources>-->
 
     <!-- 视图定位 -->
     <bean
@@ -38,7 +45,7 @@
             <bean class="com.gamelife.interceptor.LoginInterceptor"/>
         </mvc:interceptor>
         <mvc:interceptor>
-            <mvc:mapping path="/fore*"/>
+            <mvc:mapping path="/*"/>
             <bean class="com.gamelife.interceptor.OtherInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>

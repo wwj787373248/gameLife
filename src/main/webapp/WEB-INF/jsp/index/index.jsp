@@ -23,8 +23,8 @@
                 <!--							<a href="#" class="primary-btn text-uppercase">discover now</a>-->
             </div>
             <div class="col-lg-6 col-md-6 banner-right d-flex align-self-end">
-                <!--							<img class="img-fluid" src="index/img/hero-img.png" alt="">-->
-                <img class="img-fluid" src="index/img/cats.jpeg" alt="">
+                <!--							<img class="img-fluid" src="/index/img/hero-img.png" alt="">-->
+                <img class="img-fluid" src="/index/img/cats.jpeg" alt="">
             </div>
         </div>
     </div>

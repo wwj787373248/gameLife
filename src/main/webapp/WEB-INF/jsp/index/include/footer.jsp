@@ -27,23 +27,23 @@
 </footer>
 
 <!--JS -->
-<script src="index/js/vendor/jquery-2.2.4.min.js"></script>
-<script src="index/js/popper.min.js"></script>
-<script src="index/js/vendor/bootstrap.min.js"></script>
+<script src="/index/js/vendor/jquery-2.2.4.min.js"></script>
+<script src="/index/js/popper.min.js"></script>
+<script src="/index/js/vendor/bootstrap.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
-<script src="index/js/easing.min.js"></script>
-<script src="index/js/hoverIntent.js"></script>
-<script src="index/js/superfish.min.js"></script>
-<script src="index/js/jquery.ajaxchimp.min.js"></script>
-<script src="index/js/jquery.magnific-popup.min.js"></script>
-<script src="index/js/jquery.tabs.min.js"></script>
-<script src="index/js/jquery.nice-select.min.js"></script>
-<script src="index/js/isotope.pkgd.min.js"></script>
-<script src="index/js/waypoints.min.js"></script>
-<script src="index/js/jquery.counterup.min.js"></script>
-<script src="index/js/simple-skillbar.js"></script>
-<script src="index/js/owl.carousel.min.js"></script>
-<script src="index/js/mail-script.js"></script>
-<script src="index/js/main.js"></script>
+<script src="/index/js/easing.min.js"></script>
+<script src="/index/js/hoverIntent.js"></script>
+<script src="/index/js/superfish.min.js"></script>
+<script src="/index/js/jquery.ajaxchimp.min.js"></script>
+<script src="/index/js/jquery.magnific-popup.min.js"></script>
+<script src="/index/js/jquery.tabs.min.js"></script>
+<script src="/index/js/jquery.nice-select.min.js"></script>
+<script src="/index/js/isotope.pkgd.min.js"></script>
+<script src="/index/js/waypoints.min.js"></script>
+<script src="/index/js/jquery.counterup.min.js"></script>
+<script src="/index/js/simple-skillbar.js"></script>
+<script src="/index/js/owl.carousel.min.js"></script>
+<script src="/index/js/mail-script.js"></script>
+<script src="/index/js/main.js"></script>
 </body>
 </html>
