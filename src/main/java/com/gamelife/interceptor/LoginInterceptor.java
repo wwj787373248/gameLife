@@ -39,6 +39,7 @@ public class LoginInterceptor extends HandlerInterceptorAdapter {
         String contextPath = session.getServletContext().getContextPath();
         String[] noNeedAuthPage = new String[]{
                 "/show",
+                "/test",
                 "/",};
         String uri = request.getRequestURI();
         uri = StringUtils.remove(uri, contextPath);
